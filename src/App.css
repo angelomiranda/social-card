@@ -1,0 +1,44 @@
+.app {
+  text-align: center;
+}
+
+.app-logo {
+  animation: app-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.app-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.app-intro {
+  font-size: large;
+}
+
+@keyframes app-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.social-card {
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px solid gray;
+  max-width: 200px;
+}
+
+.social-card-block {
+  padding: 10px;
+}
+
+.social-card-info {
+  padding-top: 10px;
+}
+
+.social-card-info:last-child {
+  padding-bottom: 10px;
+}
